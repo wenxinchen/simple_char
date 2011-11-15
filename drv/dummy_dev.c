@@ -28,7 +28,6 @@ static char *module_name = "mydev";
  */
 static int dummy_open(struct inode *inode, struct file *file)
 {
-//	dump_stack();
 	return 0;
 }
 
